@@ -7,7 +7,7 @@ public class TestePI {
   @Test
   public void Teste1() {
       PIAproximate pi = new PIAproximate();
-      assertEquals(3.1415826535897198, f.getPI(100000));
+      assertEquals(3.1415826535897198, pi.getPI(100000));
   }
   
 }
