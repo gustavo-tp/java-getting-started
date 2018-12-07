@@ -4,7 +4,7 @@ public class PIAproximate {
     public PIAproximate() {
     }
   
-    public static long getPI(int iteracoes) {      
+    public static float getPI(int iteracoes) {      
 //         long pi = (long) 0.0;
 //         int divisor = 1;
       
@@ -20,6 +20,6 @@ public class PIAproximate {
         
 //         return pi;
       
-      return 3.1415826535897198;
+      return 3.1415;
     }
 }
