@@ -34,6 +34,7 @@ import java.util.Map;
 public class Main {
 
   private Fibonacci f = new Fibonacci();
+  private PIAproximate pi = new PIAproximate();
 
   public static void main(String[] args) throws Exception {
     SpringApplication.run(Main.class, args);
