@@ -5,7 +5,7 @@ public class PIAproximate {
     }
   
     public static double getPI(int iteracoes) {      
-        double pi = (long) 0.0;
+        double pi = 0.0;
         int divisor = 1;
       
         for (int i = 0; i < iteracoes; i++) {
@@ -19,7 +19,5 @@ public class PIAproximate {
         pi *= 4;
         
         return pi;
-      
-      return pi;
     }
 }
