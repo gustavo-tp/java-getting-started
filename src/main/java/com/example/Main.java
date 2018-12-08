@@ -54,4 +54,12 @@ public class Main {
     return "fibo";
   }
 
+  @RequestMapping("/pi")
+  String pi(Map<String, Object> model) {
+     ArrayList<Double> pi = new ArrayList<Double>();
+     pi.add(pi.getPI(i));
+     model.put("PI: ", pi);
+    return "fibo";
+  }
+
 }
