@@ -60,7 +60,7 @@ public class Main {
      ArrayList<Double> lstPi = new ArrayList<Double>();
      lstPi.add(pi.getPI(100000));
      model.put("PI: ", lstPi);
-    return "fibo";
+    return "pi";
   }
 
 }
