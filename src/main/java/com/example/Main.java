@@ -59,7 +59,7 @@ public class Main {
   String pi(Map<String, Object> model) {
      ArrayList<Double> lstPi = new ArrayList<Double>();
      lstPi.add(pi.getPI(100000));
-     model.put("PI: ", lstPi);
+     model.put("lstPi: ", lstPi);
     return "pi";
   }
 
