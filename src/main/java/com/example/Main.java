@@ -57,7 +57,7 @@ public class Main {
   @RequestMapping("/pi")
   String pi(Map<String, Object> model) {
      ArrayList<Double> pi = new ArrayList<Double>();
-     pi.add(pi.getPI(i));
+     pi.add(pi.getPI(100000));
      model.put("PI: ", pi);
     return "fibo";
   }
