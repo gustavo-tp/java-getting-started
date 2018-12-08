@@ -34,7 +34,7 @@ import java.util.Map;
 public class Main {
 
   private Fibonacci f = new Fibonacci();
-  private PIAproximate pi = new PIAproximate();
+  private PIAproximate p = new PIAproximate();
 
   public static void main(String[] args) throws Exception {
     SpringApplication.run(Main.class, args);
@@ -58,7 +58,7 @@ public class Main {
   @RequestMapping("/pi")
   String pi(Map<String, Object> model) {
      ArrayList<Double> lstPi = new ArrayList<Double>();
-     lstPi.add(pi.getPI(100000));
+     lstPi.add(p.getPI(100000));
      model.put("lstPi: ", lstPi);
     return "pi";
   }
